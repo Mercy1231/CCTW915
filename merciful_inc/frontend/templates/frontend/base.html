@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<title>Mecca Companies and Inc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="{% static 'frontend/css/base.css' %}" rel="stylesheet"> 
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="fixed box_shadow">
+      <div class="header">
+        <a href="{% url 'index' %}" class="block button"><h1><b>Mecca</b> Companies and Inc</h1></a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="rightAligned desktop paddingTop">
+          <a href="{% url 'about' %}" class="header_item button"><h3>About</h3></a>
+          <a href="{% url 'services' %}" class="header_item button"><h3>Services</h3></a>
+          <a href="{% url 'staff' %}" class="header_item button"><h3>Staff</h3></a>
+          <a href="{% url 'testimonials' %}" class="header_item button"><h3>Testimonials</h3></a>
+        </div>
+
+        <div class="mobile">
+        </div>    
+      </div>
+    </div>
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Footer -->
+    <footer class="fixed_footer">
+      <p class="seperation_bar inline">Site Map</p>
+      <p class="seperation_bar inline">Privacy Policy</p>
+      <p class="inline">Site Map</p>
+    </footer>
+
+</body>
+</html>

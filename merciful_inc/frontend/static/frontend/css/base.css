@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: block;
+}
+
+.seperation_bar {
+  border-right: 1px solid white;
+  padding: 6px;
+}
+
+.inline {
+  display: inline;
+}
+
+.paddingTop {
+  padding-top: 10px;
+}
+
+.fixed_footer {
+  color: #fff !important;
+  background-color: #000 !important;
+  text-align: center !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.box_shadow {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.header {
+  width: 100%;
+  color: #000 !important;
+  height: 100px;
+  background-color: white !important;
+}
+
+.rightAligned {
+  float: right !important;
+}
+
+.header_item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
+.block {
+  display: block;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.image_fixed {
+  top: 100px;
+  position: fixed;
+  left: 0px;
+}
+
+.about_container {
+  display: flex;
+}
+
+/*# sourceMappingURL=base.css.map */
