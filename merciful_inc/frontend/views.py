@@ -14,4 +14,4 @@ def staff(request):
 	return render(request, 'frontend/staff.html', {})
 
 def testimonials(request):
-	return render(request, 'frontend/about.html', {})
+	return render(request, 'frontend/testimonials.html', {})
